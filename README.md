@@ -44,6 +44,10 @@ A MARC text file (MarcEdit mnemonic format) containing the full bibliographic te
 After execution, the script generates:
 * **`merge.csv`** – A refined data layout that specifies targeted Keep/Delete actions per MMS ID, configured to bypass Alma’s random default settings and drive a high-quality automated merge.
 
+## Atribution & Provenance
+This project is built upon, adapts, and extends the open-source work of 
+University of Minnesota Libraries. This implementation is heavily indebted to the original repository architecture found at (https://github.com/UMNLibraries/marc-completeness-eval/tree/master).
+
 ## Contributing
 Contributions are welcome! If you would like to introduce custom scoring weights (such as evaluating specific cataloguing codes or local fields), please open an issue or submit a pull request.
 
